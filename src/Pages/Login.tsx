@@ -12,7 +12,6 @@ export const Login = () => {
       
     }
   
-  
     return (
       <div>
         <h1>Sign in with Google to continue</h1>
