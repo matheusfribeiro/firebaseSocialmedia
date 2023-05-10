@@ -27,8 +27,8 @@ export const Home = () => {
 
   return (
     <div>
-      {postsList?.map((post) => {
-        return <Post post={post} />
+      {postsList?.map((post, i) => {
+        return <Post key={i} post={post} />
       })}
     </div>
   )
